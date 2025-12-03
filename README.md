@@ -1,0 +1,32 @@
+
+# KanbanBoardAPI 🚀
+
+Spring Boot REST API με **MVC Architecture** για Kanban Board Management.
+
+## ✨ Implemented Features
+
+✅ **REST Endpoints:**
+- `GET /api/boards` - Λίστα όλων των Kanban Boards
+- `GET /api/boards/{id}` - Συγκεκριμένο Board με ID
+- `POST /api/boards` - Δημιουργία νέου Board (201 Created)
+- `PUT /api/boards/path/{id}` - Ενημέρωση Board
+
+✅ **MVC Architecture:**
+
+
+✅ **Modern Java:**
+- Records (`KanbanBoard`, `KanbanTask`)
+- Status Enum (`TODO`, `IN_PROGRESS`, `DONE`)
+- Optional handling
+- Stream API
+
+## 🚀 How to Run
+
+### Prerequisites
+- Java 17+
+- Maven 3.9+
+- VS Code + Thunder Client
+
+### 1. Clone & Build
+
+
